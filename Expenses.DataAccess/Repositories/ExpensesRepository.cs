@@ -18,7 +18,17 @@ namespace Expenses.DataAccess.Repositories
 
 		public void Add(ExpenseModel expense)
 		{
-			throw new NotImplementedException();
+
+			try
+			{
+				_context.ExpensesTable.Add(expense);
+				_context.SaveChanges();
+			}
+			catch (Exception) 
+			{
+				throw;
+			}
+			
 		}
 
 		public void Delete(int id)
