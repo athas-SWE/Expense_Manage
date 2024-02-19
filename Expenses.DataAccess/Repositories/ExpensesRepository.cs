@@ -10,6 +10,12 @@ namespace Expenses.DataAccess.Repositories
 	public class ExpensesRepository : IExpensesRepository
 	{
 		private readonly ApplicationDbContext _context;
+
+		public ExpensesRepository(ApplicationDbContext context) 
+		{ 
+			_context = context;
+		}
+
 		public void Add(ExpenseModel expense)
 		{
 			throw new NotImplementedException();
