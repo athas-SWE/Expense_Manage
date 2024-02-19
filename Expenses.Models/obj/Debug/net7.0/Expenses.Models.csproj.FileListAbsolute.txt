@@ -1,0 +1,11 @@
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\bin\Debug\net7.0\Expenses.Models.deps.json
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\bin\Debug\net7.0\Expenses.Models.dll
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\bin\Debug\net7.0\Expenses.Models.pdb
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\Expenses.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\Expenses.Models.AssemblyInfoInputs.cache
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\Expenses.Models.AssemblyInfo.cs
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\Expenses.Models.csproj.CoreCompileInputs.cache
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\Expenses.Models.dll
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\refint\Expenses.Models.dll
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\Expenses.Models.pdb
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.Models\obj\Debug\net7.0\ref\Expenses.Models.dll

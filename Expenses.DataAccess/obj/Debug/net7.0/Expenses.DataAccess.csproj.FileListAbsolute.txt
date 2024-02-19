@@ -1,0 +1,15 @@
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\bin\Debug\net7.0\Expenses.DataAccess.deps.json
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\bin\Debug\net7.0\Expenses.DataAccess.dll
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\bin\Debug\net7.0\Expenses.DataAccess.pdb
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\bin\Debug\net7.0\Expenses.Models.dll
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\bin\Debug\net7.0\Expenses.Models.pdb
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.AssemblyInfo.cs
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.csproj.CopyComplete
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.dll
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\refint\Expenses.DataAccess.dll
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\Expenses.DataAccess.pdb
+C:\Users\Athas AR\source\repos\Expenses_Management\Expenses.DataAccess\obj\Debug\net7.0\ref\Expenses.DataAccess.dll
