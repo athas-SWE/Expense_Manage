@@ -1132,6 +1132,30 @@
             "rid": "win"
           }
         }
+      },
+      "Expenses.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Expenses.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Expenses.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Expenses.DataAccess.dll": {}
+        }
+      },
+      "Expenses.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Expenses.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Expenses.Models.dll": {}
+        }
       }
     }
   },
@@ -3452,10 +3476,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Expenses.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Expenses.DataAccess/Expenses.DataAccess.csproj",
+      "msbuildProject": "../Expenses.DataAccess/Expenses.DataAccess.csproj"
+    },
+    "Expenses.Models/1.0.0": {
+      "type": "project",
+      "path": "../Expenses.Models/Expenses.Models.csproj",
+      "msbuildProject": "../Expenses.Models/Expenses.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Expenses.DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0"
@@ -3487,7 +3522,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Athas AR\\source\\repos\\Expenses_Management\\Expenses.DataAccess\\Expenses.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Athas AR\\source\\repos\\Expenses_Management\\Expenses.DataAccess\\Expenses.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
