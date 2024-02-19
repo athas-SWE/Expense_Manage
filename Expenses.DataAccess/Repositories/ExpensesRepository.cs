@@ -52,12 +52,29 @@ namespace Expenses.DataAccess.Repositories
 
 		public ExpenseModel GetExpenseById(int id)
 		{
-			throw new NotImplementedException();
+			try 
+			{
+				var expense = _context.ExpensesTable.Find(id);
+				return expense;
+			}
+			catch (Exception) 
+			{
+				throw;
+			}
 		}
 
 		public IEnumerable<ExpenseModel> Search(string searchString)
 		{
-			throw new NotImplementedException();
+			try
+			{
+				var searchExpenses = GetAllExpenses().Where(x => x.Title.Contains(searchString)).ToList();
+				return searchExpenses;
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+			
 		}
 
 		public int Update(ExpenseModel expense)
