@@ -81,7 +81,9 @@ namespace Expenses.DataAccess.Repositories
 		{
 			try
 			{
-
+				_context.Entry(expense).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+				_context.SaveChanges();
+				return 1;
 			}
 			catch (Exception) 
 			{ 
