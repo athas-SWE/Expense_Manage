@@ -1,9 +1,11 @@
 using Expenses.DataAccess;
+using Expenses.DataAccess.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IExpensesRepository,ExpensesRepository>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
