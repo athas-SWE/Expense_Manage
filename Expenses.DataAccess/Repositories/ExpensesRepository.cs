@@ -79,7 +79,14 @@ namespace Expenses.DataAccess.Repositories
 
 		public int Update(ExpenseModel expense)
 		{
-			throw new NotImplementedException();
+			try
+			{
+
+			}
+			catch (Exception) 
+			{ 
+				throw; 
+			}
 		}
 	}
 }
