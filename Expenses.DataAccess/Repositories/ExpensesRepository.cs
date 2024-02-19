@@ -38,7 +38,16 @@ namespace Expenses.DataAccess.Repositories
 
 		public IEnumerable<ExpenseModel> GetAllExpenses()
 		{
-			throw new NotImplementedException();
+			try
+			{
+				var expenses = _context.ExpensesTable.ToList();
+				return expenses;
+			}
+			catch (Exception) 
+			{
+				throw;
+			}
+			
 		}
 
 		public ExpenseModel GetExpenseById(int id)
